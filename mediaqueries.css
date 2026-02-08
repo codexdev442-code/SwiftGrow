@@ -1,0 +1,94 @@
+@media (min-width: 768px) {
+  /* tablet styles */
+}
+
+/* LAPTOP */
+@media (min-width: 1024px) {
+  /* laptop styles */
+
+/* header stylesheet */
+.menus{
+  display: none;
+}
+.site-header{
+  justify-content: space-between;
+}
+.desktop-links, .desktop-btn{
+   display: flex;
+}
+.desktop-btn{
+  align-items: center;
+}
+.desktop-links ul{
+   display: flex;
+   align-items: center;
+   gap: 5rem;
+   padding: 0 5rem 0 5rem;
+   border-radius: 0.6rem;
+   background: rgba(0, 0, 0, 0.4);
+   box-shadow: inset 0 0 2px black;
+}
+.desktop-links ul li{
+   list-style-type: none;
+}
+.desktop-links ul li a{
+   text-decoration: none;
+   color: #38BDF8;
+   transition: all 1s ease-in-out;
+}
+.desktop-links ul li a:hover{
+  transform-origin: left;
+   text-decoration: underline;
+   text-decoration-thickness: 2px;
+}
+
+/* hero section */
+.growth-img{
+  display: flex;
+}
+.hero-content{
+  align-items: flex-start;
+  justify-content: left;
+  text-align: left;
+}
+.hero{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+}
+.hero-content p{
+  padding: 0;
+}
+
+/* service card stylesheet */
+.service-cards{
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 650px;
+}
+/* why us stylesheet */
+.choose-img {
+  display: block;
+}
+.choose-us-contents{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+/* contact section stylesheet */
+
+.step-div{
+  display: block;
+}
+.steps-container{
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  width: 90%;
+}
+
+}
+/* DESKTOP (optional) */
+@media (min-width: 1200px) {
+  /* desktop styles */
+}
